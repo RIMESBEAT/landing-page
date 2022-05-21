@@ -1,0 +1,174 @@
+/* body color */
+#B28AF8 * {
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #b28af8;
+  overflow-x: hidden;
+}
+.active {
+  display: block;
+  border: 1px solid white;
+}
+nav {
+  background: #b28af8;
+}
+.nav-item a {
+  color: #fff;
+}
+.nav__logo {
+  padding: 0 4rem;
+}
+.logo__img {
+  border: 2px solid white;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 50px;
+  width: 70%;
+}
+.icon {
+  color: #ffffff;
+  font-size: 2rem;
+}
+.nav__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 4rem;
+}
+
+.btn .contact__btn,
+.port__btn {
+  text-decoration: none;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  transition: 0.3s ease;
+  margin: 0;
+}
+.contact__us a:hover {
+  background-color: #ffffff;
+  color: #b28af8;
+}
+#hero {
+  background: #b28af8;
+  padding: 0 4rem;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right -6% top -50%;
+  background-image: url(./img/hero/light__eclips.png);
+}
+.hero__content {
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right -12% top;
+  background-image: url(./img/hero/hero__design.png);
+  z-index: 1;
+}
+
+/* .light__eclips {
+  position: absolute;
+  top: -13rem;
+  right: -10rem;
+  width: 50%;
+} */
+.dark__eclips {
+  position: absolute;
+  top: 2.5rem;
+  right: -5rem;
+  width: 60%;
+}
+
+.hero__text {
+  font-weight: bold;
+  color: #fff;
+  line-height: 1.5;
+  position: relative;
+  z-index: 2;
+}
+.hero__text h2 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+.hero__text h2 span {
+  font-size: 6rem;
+}
+.portfolio {
+  position: relative;
+  margin-left: -12.7rem;
+}
+.portfolio .port__btn {
+  padding: 0.5rem 5rem;
+  background: #fff;
+  color: #b28af8;
+}
+.portfolio i {
+  position: absolute;
+  bottom: 0.01rem;
+}
+.portfolio a:hover {
+  background: #b28af8;
+  color: #fff;
+}
+.blur__circle {
+  right: 6em;
+}
+
+.hero__content i {
+  font-size: 3rem;
+  padding: 0 3rem;
+  color: #fff;
+}
+.trust__companies {
+  background: #b28af8;
+  margin: auto;
+  width: 100%;
+  padding: 4rem;
+}
+.trust__text {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+.trust__text h2 {
+  font-size: 4rem;
+  margin-bottom: 5rem;
+}
+.carol__items {
+  padding: 0 4rem;
+  width: 100%;
+  border: none;
+}
+.carol__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button span {
+  font-size: 2rem;
+}
+#about {
+  padding-top: 10rem;
+  color: #fff;
+}
+#about p{
+    font-size: 1rem;
+}
+.about__text{
+    padding: 4rem;
+}
+.about__btn{
+  position: relative;
+  left: -1.5rem;
+}
+.about__btn .port__btn{
+    padding: 0.5rem 5rem;
+    background: #fff;
+    color: #b28af8; 
+}

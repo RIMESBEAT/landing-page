@@ -62,7 +62,6 @@ nav {
   background-size: 70%;
   background-position: right -53% top -60%;
   background-image: url(./img/hero/hero__background.png);
-  back
 }
 /* .hero__content {
   background-repeat: no-repeat;
@@ -158,18 +157,18 @@ button span {
   padding-top: 10rem;
   color: #fff;
 }
-#about p{
-    font-size: 1rem;
+#about p {
+  font-size: 1rem;
 }
-.about__text{
-    padding: 1rem;
+.about__text {
+  padding: 1rem;
 }
-.about__btn{
+.about__btn {
   position: relative;
   left: -1.5rem;
 }
-.about__btn .port__btn{
-    padding: 0.5rem 5rem;
-    background: #fff;
-    color: #b28af8; 
+.about__btn .port__btn {
+  padding: 0.5rem 5rem;
+  background: #fff;
+  color: #b28af8;
 }

@@ -59,17 +59,18 @@ nav {
   background: #b28af8;
   padding: 0 4rem;
   background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: right -6% top -50%;
-  background-image: url(./img/hero/light__eclips.png);
+  background-size: 70%;
+  background-position: right -53% top -60%;
+  background-image: url(./img/hero/hero__background.png);
+  back
 }
-.hero__content {
+/* .hero__content {
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: right -12% top;
   background-image: url(./img/hero/hero__design.png);
   z-index: 1;
-}
+} */
 
 /* .light__eclips {
   position: absolute;

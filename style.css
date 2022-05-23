@@ -114,10 +114,22 @@ hero__content {
 }
 .white__bg__btn {
   margin: 4rem 0;
+  transition: 0.3s ease-in;
+}
+.white__bg__btn i {
+  font-size: 2.5rem;
+  position: absolute;
+  margin: -0.5rem 1rem;
+  transition: 0.3s ease;
+}
+.white__bg__btn i:hover {
+  transform: scale(0.8);
 }
 .white__bg__btn a {
   background: #fff;
+  transition: 0.3s ease-in;
 }
+
 .white__bg__btn a:hover {
   background: #b28af8;
   color: #fff;

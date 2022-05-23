@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,148 +21,111 @@
     <title>LANDING PAGE</title>
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
-      <div class="container-fluid">
-        <div class="nav__logo">
-          <a class="navbar-brand" href="#">
-            <img class="logo__img" src="./img/hero/Path 1@2x.png" alt="" />
-          </a>
-        </div>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="icon fa-solid fa-bars"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse nav__content"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-items">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-          </ul>
-          <div class="btn contact__us">
-            <a class="contact__btn" href="#">Contact Us</a>
+    <div class="container-fluid purple__color">
+      <div class="hero__content">
+        <div class="hero__background">
+          <div class="back__circle">
+            <img
+              src="./img/hero/hero__circle.png"
+              alt=""
+              class="hero__circle"
+            />
+          </div>
+          <div class="back__blur">
+            <img
+              src="./img/hero/blur__circle.png"
+              alt=""
+              class="blur__circle"
+            />
+          </div>
+          <div class="back__blur2">
+            <img
+              src="./img/hero/blur__circle.png"
+              alt=""
+              class="blur2__circle"
+            />
+          </div>
+          <div class="back__light">
+            <img
+              src="./img/hero/light__eclips.png"
+              alt=""
+              class="light__eclips"
+            />
+          </div>
+          <div class="back__dark">
+            <img
+              src="./img/hero/dark__eclips.png"
+              alt=""
+              class="dark__eclips"
+            />
+          </div>
+          <div class="back__design">
+            <img
+              src="./img/hero/hero__design.png"
+              alt=""
+              class="hero__design"
+            />
           </div>
         </div>
-      </div>
-    </nav>
-    <section id="hero" class="">
-      <div class="container-fluid">
-        <div class="row hero__content">
-          <div class="col-lg-6">
-            <div class="hero__text">
-              <h2>
-                We Help to <br />
-                <span>Solve Clients</span> <br />
-                Problems
-              </h2>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                <br />
-                Doloribus corporis incidunt temporibus deserunt?
-              </p>
-              <div class="btn portfolio btn-lg ">
-                <a class="port__btn" href="#"> Our Portfolio </a>
-                <a class="" href="https://www.youtube.com"
-                  ><i class="fa-solid fa-circle-play"></i
-                ></a>
+        <nav class="navbar nav__container navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./img/hero/logo.png" alt="logo" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="#">Contact Us</a>
+              </div>
+            </div>
+            <div class="lg__btn collapse navbar-collapse">
+              <a href="#" class="btn-rounded">Contact Us</a>
+            </div>
+          </div>
+        </nav>
+        <section id="hero">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="hero__text white__fonts">
+                <h2 class="title__text">
+                  We help to <br /><span>Solve Clients</span> <br />
+                  Problems
+                </h2>
+                <p class="hero__para">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Facilis quos soluta aperiam possimus!
+                </p>
+                <div class="white__bg__btn">
+                  <a href="#" class="btn-rounded">Contact Us</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="hero__image">
+                <img
+                  src="./img/hero/hero__design.png"
+                  alt=""
+                  class="hero__picture"
+                />
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="hero__img__container">
-            <img src="./img/hero/hero__background.png" alt="" class="hero__image">
-          </div>
-        </div>
-        </div>
-      </div>
-    </section>
-    <div class="trust__companies">
-      <div class="trust__text">
-        <h6>These Companies Trust Us</h6>
-        <h2>With Their Marketing</h2>
-      </div>
-
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carol__items carousel-item active">
-          <div class="carol__image">
-          <img src="./img/hero/nameSilo.png" class=" h-50" alt="..." />
-          <img src="./img/hero/tech.png" class=" h-50" alt="..." />
-          <img src="./img/hero/erp.png" class=" h-50" alt="..." />
-          <img src="./img/hero/sisters.png" class=" h-50" alt="..." />
-        </div>
-        </div>
-        <div class="carol__items carousel-item">
-          <div class="carol__image">
-          <img src="./img/hero/nameSilo.png" class=" h-50" alt="..." />
-                <img src="./img/hero/tech.png" class=" h-50" alt="..." />
-                <img src="./img/hero/erp.png" class=" h-50" alt="..." />
-                <img src="./img/hero/sisters.png" class=" h-50" alt="..." />
-        </div>
-          </div>
-        <div class="carol__items carousel-item">
-          <div class="carol__image">
-          <img src="./img/hero/nameSilo.png" class=" h-50" alt="..." />
-          <img src="./img/hero/tech.png" class=" h-50" alt="..." />
-          <img src="./img/hero/erp.png" class=" h-50" alt="..." />
-          <img src="./img/hero/sisters.png" class=" h-50" alt="..." />
-      </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="fa-solid fa-circle-arrow-left" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="fa-solid fa-circle-arrow-right" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-    <div id="about">
-      <div class="row">
-        <div class="col-lg-6">
-          <img class="about__img w-100" src="./img/hero/about.png" alt="about image">
-        </div>
-        <div class="col-lg-6">
-          <div class="about__text">
-          <h2>About Us</h2>
-          <br>
-          <h4>Simple! Our mission is to become the best design agency in the world! </h4>
-          <br>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, architecto! Ea voluptatibus suscipit unde fuga possimus reprehenderit nobis ratione deserunt.</p>
-          <br>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab atque ducimus sed doloribus veniam voluptatem? Cupiditate, mollitia. Reiciendis animi possimus magni omnis ex nihil. Incidunt.</p>
-          <br>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium cum inventore adipisci consectetur iure officia earum, nulla consequatur modi reprehenderit accusamus dignissimos impedit.</p>
-          <div class="btn btn-lg about__btn">
-            <a class="port__btn" href="#">Let's Talk</a>
-          </div>
-        </div>
-        </div>
+        </section>
       </div>
     </div>
     <script

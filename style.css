@@ -52,12 +52,12 @@ hero__content {
   top: 8rem;
   width: 10%;
 }
-.back__light .light__eclips {
+/* .back__light .light__eclips {
   position: absolute;
   top: -8rem;
   right: -20%;
   width: 70%;
-}
+} */
 .back__dark .dark__eclips {
   position: absolute;
   top: -10rem;
@@ -139,6 +139,10 @@ hero__content {
   }
   .hero__design {
     display: none;
+  }
+  .navbar-brand img {
+    width: 60%;
+    padding-left: 1rem;
   }
 }
 

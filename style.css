@@ -131,9 +131,9 @@ hero__content {
     display: none;
   }
   .hero__image .hero__picture {
-    width: 700px;
+    width: 70%;
     position: relative;
-    top: -60rem;
+    top: -55rem;
     display: block;
     margin: 0 auto;
   }
@@ -161,6 +161,6 @@ hero__content {
     margin: auto;
   }
   .btn-rounded {
-    padding: .5rem 2rem ;
+    padding: 0.5rem 2rem;
   }
 }

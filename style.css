@@ -145,13 +145,14 @@ hero__content {
 @media (max-width: 630px) {
   .hero__text {
     text-align: center;
+    padding: 4rem 0;
   }
   .hero__text h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 1.5;
   }
   .hero__text span {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .hero__para {
     font-size: 1.3rem;

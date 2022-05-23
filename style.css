@@ -140,10 +140,6 @@ hero__content {
   .hero__design {
     display: none;
   }
-  .navbar-brand img {
-    width: 60%;
-    padding-left: 1rem;
-  }
 }
 
 @media (max-width: 630px) {
@@ -166,5 +162,9 @@ hero__content {
   }
   .btn-rounded {
     padding: 0.5rem 2rem;
+  }
+  .navbar-brand img {
+    width: 50%;
+    padding-left: 0.1rem;
   }
 }

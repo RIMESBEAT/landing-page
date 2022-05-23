@@ -9,6 +9,9 @@ html {
   background: #b28af8;
   overflow-x: hidden;
 }
+.padding__0__8 {
+  padding: 0 8rem;
+}
 
 .purple__color {
   background: #b28af8;
@@ -81,7 +84,12 @@ hero__content {
   width: 60%;
   padding-left: 3.5rem;
 }
-
+.nav__hover{
+  transition: .3s ease-in;
+}
+.nav__hover a:hover{
+  transform: scale(1.01);
+}
 .lg__btn {
   display: flex;
   justify-content: flex-end;
@@ -120,10 +128,10 @@ hero__content {
   font-size: 2.5rem;
   position: absolute;
   margin: -0.5rem 1rem;
-  transition: 0.3s ease;
+  transition: 0.3s ease-in;
 }
 .white__bg__btn i:hover {
-  transform: scale(0.8);
+  transform: scale(0.9);
 }
 .white__bg__btn a {
   background: #fff;
@@ -136,6 +144,33 @@ hero__content {
 }
 .hero__image .hero__picture {
   display: none;
+}
+/* end of Hero */
+
+/* Testimonials */
+.trust__text {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+  line-height: 1.5;
+}
+.trust__text h2 {
+  font-size: 3rem;
+}
+
+.caro__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caro__btn {
+  font-size: 2rem;
+  transition: .3s ease-in;
+}
+.caro__btn:hover{
+  transform: scale(.9);
 }
 
 @media (max-width: 991px) {
@@ -164,6 +199,7 @@ hero__content {
   .hero__text {
     text-align: center;
     padding: 4rem 0;
+    margin-top: 12rem;
   }
   .hero__text h2 {
     font-size: 2rem;
@@ -185,5 +221,30 @@ hero__content {
   .navbar-brand img {
     width: 50%;
     padding-left: 0.1rem;
+  }
+  .white__bg__btn i {
+    font-size: 2.5rem;
+    position: absolute;
+    transition: 0.3s ease;
+    top: -2rem;
+    left: 40%;
+  }
+  .trust__text {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    line-height: 1.5;
+    padding: 0;
+  }
+  .trust__text h2 {
+    font-size: 2rem;
+  }
+  .caro__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    margin-top: -5rem;
   }
 }

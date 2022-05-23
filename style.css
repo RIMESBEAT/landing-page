@@ -52,12 +52,12 @@ hero__content {
   top: 8rem;
   width: 10%;
 }
-/* .back__light .light__eclips {
+.back__light .light__eclips {
   position: absolute;
   top: -8rem;
   right: -20%;
   width: 70%;
-} */
+}
 .back__dark .dark__eclips {
   position: absolute;
   top: -10rem;
@@ -122,22 +122,24 @@ hero__content {
   background: #b28af8;
   color: #fff;
 }
-.hero__image .hero__picture {
-  display: none;
-}
 
 @media (max-width: 991px) {
   .lg__btn a {
     display: none;
   }
   .hero__image .hero__picture {
-    width: 70%;
+    width: 100%;
     position: relative;
-    top: -55rem;
-    display: block;
-    margin: 0 auto;
+    top: -40rem;
+    margin: auto;
   }
   .hero__design {
+    display: none;
+  }
+  .back__light .light__eclips {
+    display: none;
+  }
+  .back__dark .dark__eclips {
     display: none;
   }
 }
@@ -162,7 +164,7 @@ hero__content {
     margin: auto;
   }
   .btn-rounded {
-    padding: 0.5rem 2rem;
+    padding: 0 2.5rem;
   }
   .navbar-brand img {
     width: 50%;

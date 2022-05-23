@@ -122,16 +122,20 @@ hero__content {
   background: #b28af8;
   color: #fff;
 }
+.hero__image .hero__picture {
+  display: none;
+}
 
 @media (max-width: 991px) {
   .lg__btn a {
     display: none;
   }
   .hero__image .hero__picture {
-    width: 100%;
-    position: relative;
-    top: -40rem;
+    width: 90%;
+    position: absolute;
+    top: 2rem;
     margin: auto;
+    display: block;
   }
   .hero__design {
     display: none;
@@ -164,7 +168,7 @@ hero__content {
     margin: auto;
   }
   .btn-rounded {
-    padding: 0 2.5rem;
+    padding: 0.5rem 2.5rem;
   }
   .navbar-brand img {
     width: 50%;

@@ -156,7 +156,7 @@ html {
   text-align: center;
   font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 4rem;
+  padding: 4rem 0;
   line-height: 1.5;
 }
 .trust__text h2 {
@@ -237,6 +237,7 @@ html {
 }
 .port__bg {
   text-align: center;
+  border-radius: 1rem;
 }
 .port__bg span {
   padding: 2rem;
@@ -293,6 +294,9 @@ html {
   .hero__para {
     font-size: 1.3rem;
   }
+  .hero__text .hero__para {
+    text-align: center;
+  }
   .white__bg__btn {
     line-height: 6em;
     margin: auto;
@@ -315,9 +319,8 @@ html {
     text-align: center;
     font-size: 3rem;
     font-weight: bold;
-    margin-bottom: 3rem;
     line-height: 1.5;
-    padding: 0;
+    padding: 4rem 0;
   }
   .trust__text h2 {
     font-size: 2rem;

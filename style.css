@@ -230,10 +230,19 @@ html {
 .plus__icon {
   background: #956ae1;
   padding: 0.5rem;
-  border-radius:3rem 0rem 4rem 1rem;
+  border-radius: 3rem 0rem 4rem 1rem;
   position: absolute;
   bottom: 0;
   right: 0;
+}
+.port__bg {
+  text-align: center;
+}
+.port__bg span {
+  padding: 2rem;
+}
+.portfolio__images img {
+  width: 100%;
 }
 
 @media (max-width: 991px) {
@@ -255,6 +264,10 @@ html {
   }
   .back__dark .dark__eclips {
     display: none;
+  }
+  .port__bg {
+    text-align: center;
+    margin: 2rem;
   }
 }
 
@@ -324,5 +337,11 @@ html {
   }
   .border__round__numbers h1 {
     margin: 4rem 0;
+  }
+  .box__card {
+    padding: 0 1rem;
+  }
+  .card__content {
+    padding: 0 0.5rem;
   }
 }

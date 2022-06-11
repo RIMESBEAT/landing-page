@@ -224,7 +224,16 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 2rem;
+  border-radius: 1.6rem;
+  position: relative;
+}
+.plus__icon {
+  background: #956ae1;
+  padding: 0.5rem;
+  border-radius:3rem 0rem 4rem 1rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 @media (max-width: 991px) {
